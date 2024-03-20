@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sip Happens Café Feedback</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React CDN links -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+
+    <!-- Babel standalone to transpile JSX code -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Your React components -->
+    <script type="text/babel" src="App.js"></script>
+    <script type="text/babel" src="Options.js"></script>
+    <script type="text/babel" src="Feedback.js"></script>
+    <script type="text/babel" src="Notification.js"></script>
+
+    <!-- Initialize React app -->
+    <script type="text/babel">
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

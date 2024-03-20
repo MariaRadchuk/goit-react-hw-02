@@ -1,0 +1,14 @@
+.feedback-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.feedback-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feedback-item {
+  margin-bottom: 10px;
+}

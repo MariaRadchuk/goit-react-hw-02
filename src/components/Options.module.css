@@ -1,0 +1,17 @@
+.options-container {
+  margin-top: 20px;
+}
+
+.options-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.reset-button {
+  background-color: #ff6347; /* Tomato */
+  color: white;
+}
