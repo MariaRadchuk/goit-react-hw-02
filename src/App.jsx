@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Options from './Options.jsx';
 import Feedback from './Feedback.jsx';
 import Notification from './Notification.jsx';
+import Description from './Description.jsx';
+import styles from './App.css';
 
 const App = () => {
     const [feedback, setFeedback] = useState({
@@ -42,6 +44,7 @@ const App = () => {
     return (
         <div>
             <h1>Sip Happens Café</h1>
+            <Description />
             <Options
                 updateFeedback={updateFeedback}
                 totalFeedback={totalFeedback}

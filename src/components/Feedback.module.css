@@ -1,14 +1,9 @@
-.feedback-container {
-  margin-top: 20px;
-  border: 1px solid #ccc;
+.container {
+  background-color: #f9f9f9;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
-.feedback-heading {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.feedback-item {
+.feedbackItem {
   margin-bottom: 10px;
 }
